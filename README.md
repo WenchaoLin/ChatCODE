@@ -10,3 +10,8 @@ This script is used to calculate the ATCG base content of sequences in a given F
 
 ```shell
 python base_content_calculator.py -i <input_file> [-t <output_type>] [-o <output_file>]
+
+
+## Singleton_Parsimony_count
+
+计算所给序列的单一变异位点和简约信息位点个数。并计算ATCG的平均含量，AT含量，GC含量。Singleton variable sites（单一变异位点）vs Parsimony informative sites（简约信息位点）
